@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h2>Cadastro Pirata 🏴‍☠️</h2>
+        
+        <div class="form-wrapper">
+            <div class="photo-section">
+                <input type="file" id="upload">
+                <div class="photo-preview">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQFB0_FnQ9lIwsDK1Ug0SyJRxWfghpw_DZQ&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQFB0_FnQ9lIwsDK1Ug0SyJRxWfghpw_DZQ&s" alt="">
+                </div>
+            </div>
+
+            <div class="input-section">
+                <div class="row">
+                    <input type="text" placeholder="Nome do Pirata">
+                    <input type="number" placeholder="Recompensa (Berries 💰)">
+                </div>
+
+                <div class="row">
+                    <input type="text" placeholder="Tripulação">
+                    <select>
+                        <option value="">Função</option>
+                        <option value="capitao">Capitão</option>
+                        <option value="imediato">Imediato</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <select>
+                        <option value="">Mar de Origem</option>
+                        <option value="east">East Blue</option>
+                    </select>
+                    <input type="text" placeholder="Fruta do Diabo 🍇">
+                </div>
+
+                <textarea placeholder="Frase marcante..." rows="3"></textarea>
+
+                <button class="btn-gerar">Gerar Cartaz</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
